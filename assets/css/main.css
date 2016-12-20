@@ -6,8 +6,8 @@ html, body {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  font-family: 'Raleway', sans-serif !important;
   background: #F7F7F7;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /****** helpfull classes *********/
 .alignCenter{
@@ -64,11 +64,12 @@ html, body {
   text-align: center;
 }
 .brand{
+  font-size: 0.75em;
   padding: 30px 0 0 0;
   text-align: center;
 }
 .brand .mi{
-  height: 50px;
+  height: 35px;
 }
 /****** sidebar *********/
 
@@ -84,7 +85,6 @@ html, body {
   text-align: center;
   vertical-align: middle;
   display: table;
-	position: absolute;
 	width: 100%;
 }
 .top .title{
@@ -97,7 +97,29 @@ html, body {
   font-size: 15px;
   font-style: italic;
 }
-.
+#main .section{
+  padding: 30px 0;
+  margin-left: 50px;
+  display: table;
+}
+#main .section .title{
+  font-size: 1.5em;
+  font-weight: 700;
+  position: relative;
+}
+#main .section .title span{
+  background: #F7F7F7;
+  padding-right: 10px;
+}
+.horizonLine:after{
+  content:"";
+  position: absolute;
+  top: calc(50% - 2px);
+	left: 0;
+	right: 0;
+  border-top: 2px solid #8B8B8B;
+  margin-left: 150px;
+}
 /****** main content *********/
 
 /****** footer *********
