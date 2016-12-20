@@ -1,0 +1,116 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Raleway', sans-serif !important;
+  background: #F7F7F7;
+}
+/****** helpfull classes *********/
+.alignCenter{
+  text-align: center;
+}
+/****** helpfull classes *********/
+/****** sidebar *********/
+#sidebar{
+  padding: 50px 30px;
+  background-color: #2C2C2C;
+  color: #fff;
+}
+#sidebar a {
+  color: #fff;
+}
+#sidebar .profile{
+  text-align: center;
+  text-align: justify;
+  padding: 30px 0;
+}
+#sidebar .profile h3{
+  text-align: center;
+}
+.profilePicture{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.profilePicture img{
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+.contactDetails{
+  padding: 30px 0px;
+  border-top: 2px  solid #fff;
+  border-bottom: 2px  solid #fff;
+}
+.contactDetails .detail{
+  padding: 10px 0;
+}
+.contactDetails .icon{
+  font-size: 30px;
+}
+.expertise{
+  padding: 30px 0;
+}
+.expertise ul{
+  padding-left: 0;
+}
+.expertise ul li{
+  list-style: none;
+  text-align: center;
+}
+.brand{
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+.brand .mi{
+  height: 50px;
+}
+/****** sidebar *********/
+
+/****** main content *********/
+#main{
+  padding-left: 0;
+  padding-right: 0;
+}
+.top{
+  height: 150px;
+  background: #E4E4E4;
+  margin: 50px 0;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+	position: absolute;
+	width: 100%;
+}
+.top .title{
+  font-size: 35px;
+  font-weight: 600;
+  display: table-cell;
+	vertical-align: middle;
+}
+.top .subtitle{
+  font-size: 15px;
+  font-style: italic;
+}
+.
+/****** main content *********/
+
+/****** footer *********
+#footer{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: #000;
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+}
+#footer img{
+  height: 25px;
+}
+/****** footer *********/
