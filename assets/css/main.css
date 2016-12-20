@@ -86,12 +86,17 @@ html, body {
   vertical-align: middle;
   display: table;
 	width: 100%;
+  background-image: url('../../images/miro_rock_soul.png');
+  background-size: 50%;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 .top .title{
   font-size: 35px;
   font-weight: 600;
   display: table-cell;
 	vertical-align: middle;
+  background: #E4E4E4;
 }
 .top .subtitle{
   font-size: 15px;
@@ -111,14 +116,20 @@ html, body {
   background: #F7F7F7;
   padding-right: 10px;
 }
+.horizonLine{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .horizonLine:after{
   content:"";
-  position: absolute;
-  top: calc(50% - 2px);
-	left: 0;
-	right: 0;
-  border-top: 2px solid #8B8B8B;
-  margin-left: 150px;
+  flex: auto;
+  background: #8B8B8B;
+  height: 1px;
+  margin: auto;
+  margin-left: 20px;
 }
 /****** main content *********/
 
