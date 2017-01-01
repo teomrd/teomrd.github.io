@@ -1,0 +1,25 @@
+{
+  "name": "teomrd.github.io",
+  "homepage": "teomrd.github.io",
+  "authors": [
+    "Mironidis Theodoros <teomrd@hotmail.com>"
+  ],
+  "description": "Mironidis Theodoros CV",
+  "main": "index.html",
+  "keywords": [
+    "Mironidis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0"
+  }
+}
