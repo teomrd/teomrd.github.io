@@ -125,6 +125,7 @@ html, body {
   justify-content: center;
   margin-right: 10px;
 }
+.print.icon,
 #main .section .iconHug .icon{
   background: #808080;
   color: #fff;
@@ -190,6 +191,14 @@ html, body {
   font-weight: 300;
 }
 /****** main content *********/
+/****** print icon *********/
+.print{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+/****** print icon *********/
 
 /****** footer *********
 #footer{
