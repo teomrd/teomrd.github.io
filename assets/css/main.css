@@ -197,6 +197,7 @@ html, body {
   bottom: 25px;
   right: 25px;
   cursor: pointer;
+  z-index: 100;
 }
 /****** print icon *********/
 
