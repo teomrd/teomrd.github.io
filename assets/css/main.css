@@ -13,6 +13,19 @@ html, body {
 .alignCenter{
   text-align: center;
 }
+.size-a4{
+	width: 8.3in;
+	height: 11.7in;
+	margin: 0 auto;
+}
+.k-pdf-export .size-a4{
+	width: 8.3in;
+	height: 11.7in;
+	margin: 0 auto;
+}
+.k-pdf-export .print{
+  display: none;
+}
 /****** helpfull classes *********/
 /****** sidebar *********/
 #sidebar{
@@ -38,7 +51,7 @@ html, body {
   text-align: center;
 }
 .profilePicture img{
-  height: 150px;
+  height: 140px;
   border-radius: 50%;
   border: 10px solid #fff;
 }
@@ -55,6 +68,7 @@ html, body {
 }
 .expertise{
   padding: 30px 0;
+  border-bottom: 2px  solid #fff;
 }
 .expertise ul{
   padding-left: 0;
@@ -62,6 +76,10 @@ html, body {
 .expertise ul li{
   list-style: none;
   text-align: center;
+}
+.languages{
+  padding: 30px 0;
+  border-bottom: 2px  solid #fff;
 }
 .brand{
   font-size: 0.75em;
@@ -111,6 +129,7 @@ html, body {
   display: flex;
   width: 100%;
   margin-top: 20px;
+  padding-right: 30px;
 }
 #main .section .iconHug{
   flex: auto;
@@ -189,6 +208,21 @@ html, body {
 #main .section .item .desc{
   font-style: italic;
   font-weight: 300;
+}
+
+#main .section.publications .item{
+  margin: 20px 0;
+  text-align: justify;
+}
+#main .section.publications .item:after{
+  content: "";
+  flex: auto;
+  background: rgba(0,0,0,0.2);
+  height: 1px;
+  margin: auto;
+  display: block;
+  width: 50px;
+  margin-top: 15px;
 }
 /****** main content *********/
 /****** print icon *********/
