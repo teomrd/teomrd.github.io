@@ -1,0 +1,16 @@
+application: teomrd
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.html
+
+- url: /assets
+  static_dir: assets
+
+- url: /bower_components
+  static_dir: bower_components
+
+- url: /images
+  static_dir: images

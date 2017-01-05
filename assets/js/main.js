@@ -2,8 +2,8 @@
 
 $(document).ready(() => {
   kendo.pdf.defineFont({
-    // 'Josefin Sans': 'http://mironidis.com/dojo/fonts/Josefin_Sans/JosefinSans-Regular.ttf',
-    // 'Josefin Sans|Bold': 'fonts/Josefin_Sans/JosefinSans-Bold.ttf',
+    'Josefin Sans': 'assets/fonts/Josefin_Sans/JosefinSans-Regular.ttf',
+    'Josefin Sans|Bold': 'assets/fonts/Josefin_Sans/JosefinSans-Bold.ttf',
     'FontAwesome': 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf',
   });
 
