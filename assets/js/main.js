@@ -25,9 +25,6 @@ $(document).ready(() => {
       kendo.saveAs({
         dataURI: data,
         fileName: 'MironidisTheodorosCV.pdf',
-        function() {
-          console.log('komple');
-        },
       });
     });
   });
