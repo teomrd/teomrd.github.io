@@ -13,19 +13,6 @@ html, body {
 .alignCenter{
   text-align: center;
 }
-.size-a4{
-	width: 8.3in;
-	height: 11.7in;
-	margin: 0 auto;
-}
-.k-pdf-export .size-a4{
-	width: 8.3in;
-	height: 11.7in;
-	margin: 0 auto;
-}
-.k-pdf-export .print{
-  display: none;
-}
 /****** helpfull classes *********/
 /****** sidebar *********/
 #sidebar{
@@ -52,7 +39,7 @@ html, body {
 }
 .profilePicture img{
   height: 140px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 10px solid #fff;
 }
 .contactDetails{
@@ -234,7 +221,22 @@ html, body {
   z-index: 100;
 }
 /****** print icon *********/
-
+/****** print settings *********/
+.size-a4{
+	width: 8.3in;
+	height: 11.7in;
+	margin: 0 auto;
+}
+.k-pdf-export .size-a4{
+	width: 8.3in;
+	height: 11.7in;
+	margin: 0 auto;
+}
+.size-a4 .print,
+.size-a4 .brand{
+  display: none;
+}
+/****** print settings *********/
 /****** footer *********
 #footer{
   position: absolute;
