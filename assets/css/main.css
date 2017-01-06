@@ -4,8 +4,8 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   vertical-align: baseline;
+  font-size: 100%;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -86,8 +86,8 @@ html, body {
 .contactDetails .detail{
   padding: 10px 0;
 }
-.contactDetails .icon{
-  font-size: 30px;
+.contactDetails .icon i{
+  font-size: 45px;
 }
 .expertise{
   padding: 30px 0;
@@ -177,7 +177,7 @@ html, body {
   text-align: center;
   border-radius: 50%;
   margin: auto;
-  margin-left: -31px;
+  margin-left: -36.5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -265,6 +265,9 @@ html, body {
 	width: 8.3in;
 	height: 11.7in;
 	margin: 0 auto;
+}
+.size-a4 a{
+  text-decoration: none;
 }
 .size-a4 .print,
 .size-a4 .brand{
