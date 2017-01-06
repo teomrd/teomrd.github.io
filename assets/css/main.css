@@ -6,6 +6,7 @@ html, body {
   border: 0;
   vertical-align: baseline;
   font-size: 100%;
+  line-height: 120%;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -143,6 +144,7 @@ html, body {
 }
 .top .subtitle{
   font-size: 15px;
+  margin-top: 10px;
   font-style: italic;
 }
 .main .section{
@@ -303,3 +305,7 @@ html, body {
   font-feature-settings: 'liga';
 }
 /****** local material font *********/
+
+.print.icon{
+  display: none;
+}

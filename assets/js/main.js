@@ -24,7 +24,7 @@ $(document).ready(() => {
       $('body').removeClass('size-a4');
       kendo.saveAs({
         dataURI: data,
-        fileName: 'MironidisTheodorosCV.pdf',
+        fileName: `MironidisTheodorosCV_${kendo.toString(new Date(), 'dd MMM yyyy')}.pdf`,
       });
     });
   });
