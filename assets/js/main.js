@@ -6,7 +6,7 @@ $(document).ready(() => {
     'Josefin Sans|Bold': '/assets/fonts/Josefin_Sans/JosefinSans-Bold.ttf',
     'Josefin Sans|Italic': '/assets/fonts/Josefin_Sans/JosefinSans-Italic.ttf',
     'Josefin Sans|Bold|Italic': '/assets/fonts/Josefin_Sans/JosefinSans-BoldItalic.ttf',
-    'FontAwesome': 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf',
+    'Material Icons': '/assets/fonts/Material_Icons/MaterialIcons-Regular.ttf',
   });
 
   $('.print').click(() => {
