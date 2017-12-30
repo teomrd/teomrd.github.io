@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -7,7 +8,7 @@ html, body {
   vertical-align: baseline;
   font-size: 100%;
   line-height: 120%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /****** responsive with flex *********/
@@ -26,138 +27,148 @@ html, body {
 }
 
 .main {
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 
 .aside-1 {
-  background: #2C2C2C;
+  background: #2c2c2c;
   color: #fff;
 }
 
 @media all and (min-width: 600px) {
-  .aside { flex: 1; }
+  .aside {
+    flex: 1;
+  }
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 2 0px; }
-  .aside-1 { order: 1; max-width: 350px; }
-  .main    { order: 2; }
+  .main {
+    flex: 2 0px;
+  }
+  .aside-1 {
+    order: 1;
+    max-width: 350px;
+  }
+  .main {
+    order: 2;
+  }
   /*.aside-2 { order: 3; }*/
   /*.footer  { order: 4; }*/
 }
 /****** responsive with flex *********/
 
 /****** helpfull classes *********/
-.alignCenter{
+.alignCenter {
   text-align: center;
 }
 /****** helpfull classes *********/
 
 /****** sidebar *********/
-.sidebar{
+.sidebar {
   padding: 50px 30px;
 }
 .sidebar a {
   color: #fff;
 }
-.sidebar .profile{
+.sidebar .profile {
   text-align: center;
   text-align: justify;
   padding: 30px 0;
 }
-.sidebar .profile h3{
+.sidebar .profile h3 {
   text-align: center;
 }
-.profilePicture{
+.profilePicture {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
 }
-.profilePicture img{
+.profilePicture img {
   height: 140px;
   border-radius: 100%;
   border: 10px solid #fff;
 }
-.contactDetails{
+.contactDetails {
   padding: 30px 0px;
-  border-top: 2px  solid #fff;
-  border-bottom: 2px  solid #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
-.contactDetails .detail{
+.contactDetails .detail {
   padding: 10px 0;
 }
-.contactDetails .icon i{
+.contactDetails .icon i {
   font-size: 45px;
 }
-.expertise{
+.expertise {
   padding: 30px 0;
-  border-bottom: 2px  solid #fff;
+  border-bottom: 2px solid #fff;
 }
-.expertise ul{
+.expertise ul {
   padding-left: 0;
 }
-.expertise ul li{
+.expertise ul li {
   list-style: none;
   text-align: center;
   line-height: 1.5em;
 }
-.languages{
+.languages {
   padding: 30px 0;
-  border-bottom: 2px  solid #fff;
+  border-bottom: 2px solid #fff;
   line-height: 1.5em;
 }
-.brand{
+.brand {
   font-size: 0.75em;
   padding: 30px 0 0 0;
   text-align: center;
 }
-.brand .mi{
+.brand .mi {
   height: 35px;
 }
 /****** sidebar *********/
 
 /****** main content *********/
-.main{
+.main {
   padding-left: 0;
   padding-right: 0;
 }
-.top{
+.top {
   height: 150px;
-  background: #E4E4E4;
+  background: #e4e4e4;
   margin: 50px 0;
   text-align: center;
   vertical-align: middle;
   display: table;
-	width: 100%;
-  background-image: url('../../images/miro_rock_soul.png');
+  width: 100%;
+  background-image: url("../../images/miro_rock_soul.png");
   background-size: 50%;
   background-position: 50%;
   background-repeat: no-repeat;
 }
-.top .title{
+.top .title {
   font-size: 35px;
   font-weight: 600;
   display: table-cell;
-	vertical-align: middle;
-  background: #E4E4E4;
+  vertical-align: middle;
+  background: #e4e4e4;
+  line-height: normal;
 }
-.top .subtitle{
+.top .subtitle {
   font-size: 15px;
   margin-top: 10px;
   font-style: italic;
 }
-.main .section{
+.main .section {
   padding: 30px 0;
   margin-left: 50px;
   display: table;
 }
-.main .section .container{
+.main .section .container {
   display: flex;
   width: 100%;
   margin-top: 20px;
 }
-.main .section .iconHug{
+.main .section .iconHug {
   flex: auto;
   width: 25%;
   max-width: 50px;
@@ -171,7 +182,7 @@ html, body {
   margin-right: 10px;
 }
 .print.icon,
-.main .section .iconHug .icon{
+.main .section .iconHug .icon {
   background: #808080;
   color: #fff;
   width: 60px;
@@ -183,23 +194,23 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid #F7F7F7;
+  border: 5px solid #f7f7f7;
 }
-.main .section .items{
+.main .section .items {
   flex: auto;
   padding-right: 30px;
 }
 
-.main .section .title{
+.main .section .title {
   font-size: 1.5em;
   font-weight: 700;
   position: relative;
 }
-.main .section .title span{
-  background: #F7F7F7;
+.main .section .title span {
+  background: #f7f7f7;
   padding-right: 10px;
 }
-.horizonLine{
+.horizonLine {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -208,44 +219,44 @@ html, body {
   font-size: 25px;
   font-weight: 600;
 }
-.horizonLine:after{
-  content:"";
+.horizonLine:after {
+  content: "";
   flex: auto;
-  background: #8B8B8B;
+  background: #8b8b8b;
   height: 1px;
   margin: auto;
   margin-left: 20px;
 }
 
-.main .section .item{
+.main .section .item {
   margin: 20px 0;
 }
-.main .section .item .what{
+.main .section .item .what {
   font-size: 20px;
   font-weight: 600;
 }
-.main .section .item .where{
+.main .section .item .where {
   font-size: 19px;
   font-weight: 400;
 }
-.main .section .item .when{
+.main .section .item .when {
   font-size: 15px;
   opacity: 0.6;
 }
-.main .section .item .desc{
+.main .section .item .desc {
   font-style: italic;
   font-weight: 300;
   margin-top: 10px;
 }
 
-.main .section.publications .item{
+.main .section.publications .item {
   margin: 20px 0;
   text-align: justify;
 }
-.main .section.publications .item:after{
+.main .section.publications .item:after {
   content: "";
   flex: auto;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   height: 1px;
   margin: auto;
   display: block;
@@ -254,7 +265,7 @@ html, body {
 }
 /****** main content *********/
 /****** print icon *********/
-.print{
+.print {
   position: fixed;
   bottom: 25px;
   right: 25px;
@@ -263,16 +274,16 @@ html, body {
 }
 /****** print icon *********/
 /****** print settings *********/
-.size-a4{
-	width: 8.3in;
-	height: 11.7in;
-	margin: 0 auto;
+.size-a4 {
+  width: 8.3in;
+  height: 11.7in;
+  margin: 0 auto;
 }
-.size-a4 a{
+.size-a4 a {
   text-decoration: none;
 }
 .size-a4 .print,
-.size-a4 .brand{
+.size-a4 .brand {
   display: none;
 }
 /****** print settings *********/
@@ -306,6 +317,6 @@ html, body {
 }
 /****** local material font *********/
 
-.print.icon{
+.print.icon {
   display: none;
 }
