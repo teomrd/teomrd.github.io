@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -12,6 +11,7 @@ body {
 }
 
 /****** responsive with flex *********/
+
 .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -22,7 +22,7 @@ body {
   flex-flow: row wrap;
 }
 
-.wrapper > * {
+.wrapper>* {
   flex: 1 100%;
 }
 
@@ -55,83 +55,105 @@ body {
   /*.aside-2 { order: 3; }*/
   /*.footer  { order: 4; }*/
 }
+
 /****** responsive with flex *********/
 
 /****** helpfull classes *********/
+
 .alignCenter {
   text-align: center;
 }
+
 /****** helpfull classes *********/
 
 /****** sidebar *********/
+
 .sidebar {
   padding: 50px 30px;
 }
+
 .sidebar a {
   color: #fff;
 }
+
 .sidebar .profile {
   text-align: center;
   text-align: justify;
   padding: 30px 0;
 }
+
 .sidebar .profile h3 {
   text-align: center;
 }
+
 .profilePicture {
-  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
-}
-.profilePicture img {
-  height: 140px;
+  background-image: url('../../images/teomrd.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75%;
+  padding-bottom: 75%;
   border-radius: 100%;
-  border: 10px solid #fff;
+  border: 5px solid white;
 }
+
 .contactDetails {
   padding: 30px 0px;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
 }
+
 .contactDetails .detail {
   padding: 10px 0;
 }
+
 .contactDetails .icon i {
   font-size: 45px;
 }
+
 .expertise {
   padding: 30px 0;
   border-bottom: 2px solid #fff;
 }
+
 .expertise ul {
   padding-left: 0;
 }
+
 .expertise ul li {
   list-style: none;
   text-align: center;
   line-height: 1.5em;
 }
+
 .languages {
   padding: 30px 0;
   border-bottom: 2px solid #fff;
   line-height: 1.5em;
 }
+
 .brand {
   font-size: 0.75em;
   padding: 30px 0 0 0;
   text-align: center;
 }
+
 .brand .mi {
   height: 35px;
 }
+
 /****** sidebar *********/
 
 /****** main content *********/
+
 .main {
   padding-left: 0;
   padding-right: 0;
 }
+
 .top {
   height: 150px;
   background: #e4e4e4;
@@ -145,6 +167,7 @@ body {
   background-position: 50%;
   background-repeat: no-repeat;
 }
+
 .top .title {
   font-size: 35px;
   font-weight: 600;
@@ -153,21 +176,25 @@ body {
   background: #e4e4e4;
   line-height: normal;
 }
+
 .top .subtitle {
   font-size: 15px;
   margin-top: 10px;
   font-style: italic;
 }
+
 .main .section {
   padding: 30px 0;
   margin-left: 50px;
   display: table;
 }
+
 .main .section .container {
   display: flex;
   width: 100%;
   margin-top: 20px;
 }
+
 .main .section .iconHug {
   flex: auto;
   width: 25%;
@@ -181,8 +208,8 @@ body {
   justify-content: center;
   margin-right: 10px;
 }
-.print.icon,
-.main .section .iconHug .icon {
+
+.print.icon, .main .section .iconHug .icon {
   background: #808080;
   color: #fff;
   width: 60px;
@@ -196,6 +223,7 @@ body {
   justify-content: center;
   border: 5px solid #f7f7f7;
 }
+
 .main .section .items {
   flex: auto;
   padding-right: 30px;
@@ -206,10 +234,12 @@ body {
   font-weight: 700;
   position: relative;
 }
+
 .main .section .title span {
   background: #f7f7f7;
   padding-right: 10px;
 }
+
 .horizonLine {
   display: flex;
   width: 100%;
@@ -219,6 +249,7 @@ body {
   font-size: 25px;
   font-weight: 600;
 }
+
 .horizonLine:after {
   content: "";
   flex: auto;
@@ -231,18 +262,22 @@ body {
 .main .section .item {
   margin: 20px 0;
 }
+
 .main .section .item .what {
   font-size: 20px;
   font-weight: 600;
 }
+
 .main .section .item .where {
   font-size: 19px;
   font-weight: 400;
 }
+
 .main .section .item .when {
   font-size: 15px;
   opacity: 0.6;
 }
+
 .main .section .item .desc {
   font-style: italic;
   font-weight: 300;
@@ -253,6 +288,7 @@ body {
   margin: 20px 0;
   text-align: justify;
 }
+
 .main .section.publications .item:after {
   content: "";
   flex: auto;
@@ -263,8 +299,11 @@ body {
   width: 50px;
   margin-top: 15px;
 }
+
 /****** main content *********/
+
 /****** print icon *********/
+
 .print {
   position: fixed;
   bottom: 25px;
@@ -272,20 +311,25 @@ body {
   cursor: pointer;
   z-index: 100;
 }
+
 /****** print icon *********/
+
 /****** print settings *********/
+
 .size-a4 {
   width: 8.3in;
   height: 11.7in;
   margin: 0 auto;
 }
+
 .size-a4 a {
   text-decoration: none;
 }
-.size-a4 .print,
-.size-a4 .brand {
+
+.size-a4 .print, .size-a4 .brand {
   display: none;
 }
+
 /****** print settings *********/
 
 /****** local material font *********
@@ -317,6 +361,6 @@ body {
 }
 /****** local material font *********/
 
-.print.icon {
+/* .print.icon {
   display: none;
-}
+} */
