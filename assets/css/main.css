@@ -361,6 +361,6 @@ html, body {
 }
 /****** local material font *********/
 
-/* .print.icon {
+.print.icon {
   display: none;
-} */
+}
