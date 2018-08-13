@@ -364,3 +364,7 @@ html, body {
 .print.icon {
   display: none;
 }
+
+.anchor {
+  margin-right: 10px;
+}
