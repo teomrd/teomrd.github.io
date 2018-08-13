@@ -28,11 +28,18 @@ html, body {
 
 .main {
   background: #f7f7f7;
+  height: 100%;
 }
 
 .aside-1 {
   background: #2c2c2c;
   color: #fff;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100%;
 }
 
 @media all and (min-width: 600px) {
