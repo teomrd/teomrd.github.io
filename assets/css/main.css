@@ -255,6 +255,7 @@ html, body {
   margin: 0 auto;
   font-size: 25px;
   font-weight: 600;
+  padding-top: 10px;
 }
 
 .horizonLine:after {
