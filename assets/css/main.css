@@ -216,21 +216,6 @@ html, body {
   margin-right: 10px;
 }
 
-.print.icon, .main .section .iconHug .icon {
-  background: #808080;
-  color: #fff;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  border-radius: 50%;
-  margin: auto;
-  margin-left: -36.5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid #f7f7f7;
-}
-
 .main .section .items {
   flex: auto;
   padding-right: 30px;
@@ -318,60 +303,30 @@ html, body {
   right: 25px;
   cursor: pointer;
   z-index: 100;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.print:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.print.icon, .main .section .iconHug .icon {
+  background: #808080;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  margin-left: -36.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #f7f7f7;
 }
 
 /****** print icon *********/
-
-/****** print settings *********/
-
-.size-a4 {
-  width: 8.3in;
-  height: 11.7in;
-  margin: 0 auto;
-}
-
-.size-a4 a {
-  text-decoration: none;
-}
-
-.size-a4 .print, .size-a4 .brand {
-  display: none;
-}
-
-/****** print settings *********/
-
-/****** local material font *********
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Material Icons'),
-       local('MaterialIcons-Regular'),
-       url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: 'liga';
-}
-/****** local material font *********/
-
-.print.icon {
-  display: none;
-}
 
 .anchor {
   margin-right: 10px;
