@@ -1,0 +1,15 @@
+{
+  "name": "teomrd.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/teomrd/teomrd.github.io.git",
+  "author": "teomrd <mironidis.gr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir ./"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.7"
+  }
+}

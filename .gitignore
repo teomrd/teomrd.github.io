@@ -5,3 +5,5 @@ build
 .gitignore
 .eslintrc
 app.yaml
+.cache
+.reports
