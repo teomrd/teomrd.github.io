@@ -1,8 +1,8 @@
 {
   "name": "Theo Mironidis",
   "short_name": "teomrd",
-  "theme_color": "#ff112f",
-  "background_color": "000",
+  "theme_color": "#2c2c2c",
+  "background_color": "#f7f7f7",
   "display": "fullscreen",
   "Scope": "/",
   "start_url": "/",
