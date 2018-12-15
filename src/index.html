@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#2c2c2c" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
@@ -442,5 +443,11 @@
   </div>
 </body>
 <script src="assets/js/index.js"></script>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js");
+    })
+  }
+</script>
 </html>
