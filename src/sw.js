@@ -66,9 +66,3 @@ self.addEventListener("fetch", function(event) {
     })
   );
 });
-
-const title = "Simple Title";
-const options = {
-  body: "Simple piece of body text.\nSecond line of body text :)"
-};
-self.showNotification(title, options);
