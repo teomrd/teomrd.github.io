@@ -7,3 +7,4 @@ build
 app.yaml
 .cache
 .reports
+dist
