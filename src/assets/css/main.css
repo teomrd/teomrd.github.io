@@ -372,6 +372,32 @@ html, body {
 
 /****** print icon *********/
 
+/****** custom scrollbar *********/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #808080;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c2c2c;
+}
+
+/****** custom scrollbar *********/
+
 .anchor {
   margin-right: 10px;
 }
