@@ -315,6 +315,12 @@ html, body {
   opacity: 0.6;
 }
 
+.main .section .item .tech-stack {
+  font-size: small;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
 .main .section .item .desc {
   font-style: italic;
   font-weight: 300;
@@ -336,6 +342,8 @@ html, body {
   width: 50px;
   margin-top: 15px;
 }
+
+
 
 /****** main content *********/
 
