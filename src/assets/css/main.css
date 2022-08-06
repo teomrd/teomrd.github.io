@@ -262,6 +262,17 @@ html, body {
   margin: 20px 0;
 }
 
+.main .section .item .logo {
+  background:rgba(0, 0, 0, 1);
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+  border-radius: 50%;
+}
+
 .main .section .item .what {
   font-size: 20px;
   font-weight: 600;
