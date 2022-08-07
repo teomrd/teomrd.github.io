@@ -6,5 +6,6 @@ build
 .eslintrc
 app.yaml
 .cache
+.parcel-cache
 .reports
 dist
