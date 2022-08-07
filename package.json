@@ -1,13 +1,12 @@
 {
   "name": "teomrd.github.io",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/teomrd/teomrd.github.io.git",
   "author": "teomrd <mironidis.gr@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir ./",
+    "build": "parcel build src/index.html",
     "deploy": "npm run build && git add . && git commit -m \"Automatic deployment\" && git push"
   },
   "devDependencies": {

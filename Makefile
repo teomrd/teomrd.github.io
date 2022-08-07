@@ -16,9 +16,6 @@ clean:
 	rm -rf ./.cache
 	rm -rf ./*lock*
 
-serve: build
-	serve $(MAKE_DIR)/out
-
 build: install
 	yarn run build
 
