@@ -1,3 +1,8 @@
-.anchor, .print.icon, .sidebar, .publications {
+.anchor, .print.icon, .sidebar, .section.publications {
   display: none;
+}
+
+section.top {
+  height: 120px;
+  margin: 0;
 }
