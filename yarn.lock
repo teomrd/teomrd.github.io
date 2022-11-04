@@ -1715,7 +1715,7 @@ ordered-binary@^1.2.4:
 
 parcel@^2.7.0:
   version "2.7.0"
-  resolved "https://registry.npmjs.org/parcel/-/parcel-2.7.0.tgz"
+  resolved "https://registry.yarnpkg.com/parcel/-/parcel-2.7.0.tgz#41fdd3e5c7144d4cf7f1fa3ab8d0ea0d47d31f77"
   integrity sha512-pRYwnivwtNP0tip8xYSo4zCB0XhLt7/gJzP1p8OovCqkmFjG9VG+GW9TcAKqMIo0ovEa9tT+/s6gY1Qy+BONGQ==
   dependencies:
     "@parcel/config-default" "2.7.0"
