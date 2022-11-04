@@ -1,1 +1,0 @@
-{"version":3,"sources":["assets/js/index.js"],"names":["document","getElementById","onclick","window","print"],"mappings":";AACEA,SAASC,eAAe,SAASC,QAAU,WAAMC,OAAAA,OAAOC","file":"js.a338835a.map","sourceRoot":"src","sourcesContent":["(function() {\n  document.getElementById(\"print\").onclick = () => window.print();\n})();\n"]}

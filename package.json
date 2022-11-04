@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --dist-dir docs",
     "deploy": "npm run build && git add . && git commit -m \"Automatic deployment\" && git push"
   },
   "devDependencies": {

@@ -1,0 +1,1 @@
+{"mappings":"AACEA,SAASC,eAAe,SAASC,QAAU,IAAMC,OAAOC","sources":["src/assets/js/index.js"],"sourcesContent":["(function() {\n  document.getElementById(\"print\").onclick = () => window.print();\n})();\n"],"names":["document","getElementById","onclick","window","print"],"version":3,"file":"index.7b24ff86.js.map"}
