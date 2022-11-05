@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir docs",
-    "deploy": "npm run build && git add . && git commit -m \"Automatic deployment\" && git push"
+    "deploy": "git add . && git commit -m \"Automatic deployment\" && git push"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.7.0",
