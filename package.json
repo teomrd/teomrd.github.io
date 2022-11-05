@@ -13,6 +13,6 @@
     "parcel": "^2.7.0",
     "@parcel/packager-raw-url": "^2.7.0",
     "@parcel/transformer-webmanifest": "^2.7.0",
-    "cssnano": "^4.1.7"
+    "cssnano": "^5.1.14"
   }
 }
